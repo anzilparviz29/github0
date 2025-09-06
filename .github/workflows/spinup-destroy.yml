@@ -53,7 +53,7 @@ jobs:
     if: contains(github.event.pull_request.labels.*.name, 'destroy environment')
 
     steps:
-      - name: Checkout repository helloo
+      - name: Checkout repository helloouuf
         uses: actions/checkout@v4
 
       - name: Azure login
