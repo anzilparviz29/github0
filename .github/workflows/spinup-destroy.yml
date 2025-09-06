@@ -12,7 +12,7 @@ env:
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  AZURE_WEBAPP_NAME: anzilparviz2-ttt-app
+  AZURE_WEBAPP_NAME: anzilparviz29-ttt-app
 
 jobs:
   setup-up-azure-resources:
