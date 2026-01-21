@@ -46,7 +46,7 @@ jobs:
           name: webpack artifacts
           path: public
 
-      - name: Log in to GHCR
+      - name: Log in to GHCR ugog
         uses: docker/login-action@v3
         with:
           registry: ${{ env.IMAGE_REGISTRY_URL }}
